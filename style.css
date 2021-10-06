@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+article {
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+/* Nav-item starts */
+
+
 .nav-item {
   font-weight: 500;
   font-size: 18px;
@@ -11,6 +19,123 @@
   padding: 0 10px;
 }
 
+/* carousel starts */
+.carousel-bg {
+  background-image: url("images/bg-2.png");
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  overflow: hidden;
+}
+
+
 .carousel-inner {
   overflow: hidden;
+
+}
+
+.row {
+  padding-bottom: 30px;
+}
+
+.carousel-item .col-md-5 h1 {
+  font-weight: 500;
+  font-size: 41px;
+  color: #1F1F1F;
+  padding-bottom: 20px;
+}
+
+.carousel-item .col-md-5 p {
+  font-weight: 300;
+  font-size: 18px;
+  color: #707070;
+  padding-bottom: 20px;
+}
+
+.buy-now {
+  font-weight: 500;
+  font-size: 20px;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 15px 30px;
+  border-radius: 10px;
+  border: none;
+}
+
+.carousel-indicators button {
+  background: linear-gradient(90deg, rgba(255, 156, 53, 1) 0%, rgba(255, 208, 25, 1) 100%);
+  height: 5px;
+  border-radius: 3px;
+}
+
+/* Cards */
+.card {
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 3px 6px 15px rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+}
+
+.card:hover {
+  transform: scale(102%)
+}
+
+.card h5 {
+  font-weight: 500;
+  font-size: 24px;
+  color: #1F1F1F;
+  padding-bottom: 5px;
+}
+
+.card p {
+  font-weight: 300;
+  font-size: 16px;
+  color: #707070;
+  padding-bottom: 5px;
+}
+
+.card .card-footer {
+  border: navajowhite;
+  background: none;
+  margin-bottom: 5px;
+}
+
+/* smartphone starts */
+.smartphone-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.smartphone-header h2 {
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.smartphone-header a {
+  display: block;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 22px;
+  color: #FF9D00;
+}
+
+/* laptop starts */
+.laptop-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.laptop-header h2 {
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.laptop-header a {
+  display: block;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 22px;
+  color: #FF9D00;
 }

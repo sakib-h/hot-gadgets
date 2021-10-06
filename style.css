@@ -139,3 +139,29 @@ article {
   font-size: 22px;
   color: #FF9D00;
 }
+
+.item img {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.item p {
+  font-weight: 500;
+  font-size: 24px;
+  color: #050505;
+}
+
+.item {
+  overflow: hidden;
+  text-align: center;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+  text-align: center;
+  padding-bottom: 30px;
+  font-size: 18px;
+}

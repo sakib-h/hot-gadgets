@@ -1,0 +1,16 @@
+* {
+  font-family: 'Poppins',
+    sans-serif;
+  box-sizing: border-box;
+}
+
+.nav-item {
+  font-weight: 500;
+  font-size: 18px;
+  color: #707070;
+  padding: 0 10px;
+}
+
+.carousel-inner {
+  overflow: hidden;
+}
